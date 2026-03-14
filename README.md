@@ -246,6 +246,18 @@ Built on these open-source projects:
 - [demucs](https://github.com/adefossez/demucs) — audio source separation
 - [PlexAPI](https://github.com/pkkid/python-plexapi) — Plex integration
 
+## Legal Notice
+
+This project provides scripts for personal, non-commercial use. The AI models downloaded during setup have their own licenses:
+
+- **Coqui XTTS v2**: [CPML](https://coqui.ai/cpml) — non-commercial use only
+- **Meta NLLB-200**: CC-BY-NC-4.0 — non-commercial use only
+- **pyannote models**: MIT — requires accepting terms on HuggingFace
+- **OpenAI Whisper / faster-whisper**: MIT
+- **Demucs**: MIT
+
+Users are responsible for complying with applicable model licenses and copyright laws in their jurisdiction. This tool is intended for dubbing media you personally own for personal viewing. Do not use this tool to dub or distribute copyrighted content you do not own.
+
 ## License
 
 MIT — Created by **Avi Fridlindas**
