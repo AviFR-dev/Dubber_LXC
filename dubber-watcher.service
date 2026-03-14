@@ -1,0 +1,17 @@
+[Unit]
+Description=Plex AI Dubber - Label Watcher
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/dubber/scripts
+Environment=COQUI_TOS_AGREED=1
+Environment=LD_LIBRARY_PATH=/opt/nvidia-libs
+ExecStart=/opt/dubber/bin/python /opt/dubber/scripts/dubber_watcher.py --config /opt/dubber/config.json
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target
