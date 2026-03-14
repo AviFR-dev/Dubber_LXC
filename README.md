@@ -61,7 +61,7 @@ Movie File
 
 ## Requirements
 
-- **Proxmox VE** 7.x or 8.x
+- **Proxmox VE** 7.x or 8.x 9.x
 - **NVIDIA GPU** with drivers on host (CPU fallback available)
 - **12+ GB VRAM recommended** for GPU mode (RTX 3060+)
 - **6 GB VRAM** works but runs on CPU (GTX 1060 etc.)
