@@ -83,7 +83,7 @@ Movie File
 
 ```bash
 # On your Proxmox host
-git clone https://github.com/YOUR_REPO/plex-ai-dubber.git
+git clone https://github.com/AviFR-dev/plex-ai-dubber.git
 cd plex-ai-dubber
 bash setup_dubber_lxc.sh
 ```
